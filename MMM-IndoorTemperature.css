@@ -1,0 +1,33 @@
+/*
+ * Magic Mirror
+ * Module: MMM-IndoorTemperature
+ *
+ * By Smart'Gic
+ * MIT Licensed.
+ */
+.MMM-IndoorTemperature .symbol {
+    margin-right: 3px;
+    margin-left: 8px;
+}
+
+.MMM-IndoorTemperature .symbol-temperature {
+    color: #ff8e99;
+}
+
+.MMM-IndoorTemperature .symbol-humidity {
+    color: #3246f6;
+}
+
+.MMM-IndoorTemperature .symbol-altitude {
+    color: #5197e7;
+}
+
+
+.MMM-IndoorTemperature .symbol-pressure {
+    color: #f6df5a;
+}
+
+.MMM-IndoorTemperature .text {
+    font-size: 20px;
+    color: white;
+}

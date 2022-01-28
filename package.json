@@ -1,0 +1,14 @@
+{
+  "name": "mmm-indoortemperature",
+  "version": "1.0.0",
+  "description": "Collect BME280 sensor metrics via an abstract API.",
+  "main": "MMM-IndoorTemperature.js",
+  "author": "Smart'Gic",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "node-fetch": "latest"
+  }
+}
