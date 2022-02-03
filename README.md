@@ -52,4 +52,4 @@ Then update the MagicMirror configuration file `~/MagicMirror/config/config.js` 
 
 ## Credits
 
-This module has been developped by [Smart"Gic](https://smartgic.io).
+This module has been developed by [Smart"Gic](https://smartgic.io).
