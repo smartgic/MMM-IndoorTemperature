@@ -5,7 +5,7 @@
 
 This module interacts with the [MagicMirror](https://magicmirror.builders/) to retrieve data from a [BME280](https://amzn.to/3B1Kv1O) sensor via the [Smart"Gic Abstract RPi API](https://github.com/smartgic/abstract-rpi).
 
-<center><img src="docs/screenshot.png" width="450"/></center>
+<img src="docs/screenshot.png" width="450"/>
 
 ## Installation
 
