@@ -20,7 +20,7 @@ Module.register('MMM-IndoorTemperature', {
     interval: 60000,
     fadeSpeed: 4*1000,
     sensor: 'bme280',
-    unit: 'metric',
+    units: config.units,
   },
 
   start() {
@@ -40,10 +40,10 @@ Module.register('MMM-IndoorTemperature', {
     var altitudeField = '';
     var altitudeLabel = '';
     var tempfield = '';
-		if (this.config.unit === 'metric' || this.config.unit === 'imperial') {
+		if (this.config.units === 'metric' || this.config.units === 'imperial') {
 			degreeLabel += '&deg;';
 		}
-    switch (this.config.unit) {
+    switch (this.config.units) {
       case 'metric':
         altitudeField = 'altitude_meter';
         altitudeLabel = 'm';
