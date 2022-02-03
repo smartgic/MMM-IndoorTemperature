@@ -18,7 +18,7 @@ git clone https://github.com/smartgic/MMM-IndoorTemperature.git
 
 Then update the MagicMirror configuration file `~/MagicMirror/config/config.js` *(replace with your path)*.
 
-```json
+```js
 {
     module: "MMM-IndoorTemperature",
     position: "top_left",
